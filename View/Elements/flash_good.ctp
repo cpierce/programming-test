@@ -1,0 +1,1 @@
+<div class="container alert alert-info"><?php echo $message; ?></div>

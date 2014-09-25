@@ -1,0 +1,35 @@
+@charset "utf-8";
+html { position: relative; min-height: 100%; }
+body { margin-bottom: 60px; }
+.total, .color { cursor: pointer; }
+textarea { resize: none; }
+
+#header { 
+	min-height: 80px;
+	width: 100%;
+	border-bottom: 1px solid #006;
+	margin-bottom: 20px;
+}
+#footer { 
+	background: #3b679e;
+	background: -moz-linear-gradient(top,  #3b679e 0%, #207cca 51%, #7db9e8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b679e), color-stop(51%,#207cca), color-stop(100%,#7db9e8));
+	background: -webkit-linear-gradient(top,  #3b679e 0%,#207cca 51%,#7db9e8 100%);
+	background: -o-linear-gradient(top,  #3b679e 0%,#207cca 51%,#7db9e8 100%);
+	background: -ms-linear-gradient(top,  #3b679e 0%,#207cca 51%,#7db9e8 100%);
+	background: linear-gradient(to bottom,  #3b679e 0%,#207cca 51%,#7db9e8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 );
+	color: #fff;
+	padding-top: 20px;
+	height: 60px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+th a.asc:after { content: ' ⇣'; }
+th a.desc:after { content: ' ⇡'; }
+.cake-sql-log { background: #fff; width: 100%; }
+.cake-sql-log td { padding: 4px 8px; text-align: left; font-family: Monaco, Consolas, "Courier New", monospaced; border: 1px solid #555; }
+.cake-sql-log caption { color:#fff; }
+form .required label:before { color: #23e; content: '* '; display:inline; }
