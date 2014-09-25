@@ -1,6 +1,7 @@
 By Chris Pierce
 
 MYSQL Database Syntaxes
+
 	-- Create syntax for TABLE 'colors'
 	CREATE TABLE `colors` (
 	  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
