@@ -1,4 +1,4 @@
-<div class="col-md-6">
+<div class="col-md-12">
 	<div class="panel panel-primary">
 		<div class="panel-heading">Colors and Votes</div>
 		<div class="panel-body">
@@ -36,9 +36,6 @@
 			?>
 		</div>
 	</div>
-</div>
-<div class="col-md-6">
-	<?php echo $this->element('support_form'); ?>
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
