@@ -1,13 +1,13 @@
-Colors
---- | 
-*Color*
-Red
-Orange
-Yellow
-Green
-Blue
-Indigo
-Violet
+| Colors |
+| --- | 
+| *Color* |
+| Red |
+| Orange |
+| Yellow |
+| Green |
+| Blue |
+| Indigo |
+| Violet |
 
 Web Page
 - Create a web page in PHP that uses the two MySQL tables above "colors" and "votes".
