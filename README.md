@@ -1,5 +1,4 @@
 ## Colors
-| --- | 
 | *Color* |
 | --- |
 | Red |
