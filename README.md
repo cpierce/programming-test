@@ -1,6 +1,7 @@
 | Colors |
 | --- | 
 | *Color* |
+| --- |
 | Red |
 | Orange |
 | Yellow |
@@ -8,6 +9,18 @@
 | Blue |
 | Indigo |
 | Violet |
+
+| Votes |  |  |
+| --- | --- | --- |
+| *City* | *Color* | *Votes* |
+| --- | --- | --- |
+| Anchorage | Blue | 10,000 |
+| Anchorage | Yellow | 15,000 |
+| Brooklyn | Red | 100,000 |
+| Brooklyn | Blue | 250,000 |
+| Detroit | Red | 160,000 |
+| Selma | Yellow | 15,000 |
+| Selma | Violet | 5,000 |
 
 Web Page
 - Create a web page in PHP that uses the two MySQL tables above "colors" and "votes".
