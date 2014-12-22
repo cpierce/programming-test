@@ -1,27 +1,17 @@
+Colors
+--- | 
+*Color*
+Red
+Orange
+Yellow
+Green
+Blue
+Indigo
+Violet
 
-```
-#!mysql
-
--- Create syntax for TABLE 'colors'
-CREATE TABLE `colors` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(15) DEFAULT NULL,
-  `vote_count` int(11) unsigned NOT NULL DEFAULT '0',
-  `created` datetime DEFAULT NULL,
-  `modified` datetime DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `color` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
-
--- Create syntax for TABLE 'votes'
-CREATE TABLE `votes` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `city` varchar(20) DEFAULT NULL,
-  `color_id` int(11) unsigned DEFAULT NULL,
-  `number_of_votes` int(11) unsigned DEFAULT NULL,
-  `created` datetime DEFAULT NULL,
-  `modified` datetime DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `color_id` (`color_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
-```
+Web Page
+- Create a web page in PHP that uses the two MySQL tables above "colors" and "votes".
+- The left column should be populated from reading all the entries in the colors table.
+- The colors should be links, so that when you click on it, an Ajax call populates the Votes (obtained from MySQL) in the right column next to the color.
+- When clicking on "Total", use Javascript only (no server involvement) to add up and present the totals shown.
+- Write something that you would feel comfortable shipping and maintaining.
