@@ -35,4 +35,4 @@
 5. Write something that you would feel comfortable shipping and maintaining.
 
 
-The code in the files are what I have written from scratch from the above project test.  This allows you to see my skills in MySQL, PHP, CSS and HTML 5.  I took the liberty of optimizing the MySQL file from what it is here to better use indexes, etc.
+The code in the files are what I have written from scratch from the above project test.  This allows you to see my skills in MySQL, PHP, CSS ,Javascript, JQuery, and HTML 5.  I took the liberty of optimizing the MySQL file from what it is here to better use indexes, etc.
