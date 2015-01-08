@@ -43,7 +43,7 @@
 		$('.color').click(function() {
 			var color_id = $(this).data('color-id');
 			$.getJSON('/colors/view/' + color_id, function(voteData) {
-				var number_of_votes = voteData.total.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+				var number_of_votes = format_number(voteData.total);
 				$('#vote_' + color_id).text(number_of_votes);
 				$('#vote_' + color_id).data('sum', voteData.total);
 			});
@@ -55,7 +55,11 @@
 			$('.votes').each(function() {
 				total += (parseInt($(this).data('sum')));
 			});
-			$('#total-votes').text(total.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, '$1,'));
+			$('#total-votes').text(format_number(total);
 		});
+		
+		var format_number = function(number) {
+			return number.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, '$1,'));
+		}
 	});
 </script>
